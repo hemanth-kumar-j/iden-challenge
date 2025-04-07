@@ -40,6 +40,14 @@ def login(page):
     page.fill("#password", "ChCfP0Ks")
     page.click("button[type=submit]")
     page.wait_for_load_state("networkidle")
+
+    # Wait for any toast popup to appear (login success or failure)
+    page.wait_for_selector("//ol//div[contains(text(), 'Login')]", timeout=5000)
+
+    # Check for login failure popup
+    if page.locator('//ol//div[contains(text(), "Login failed")]').is_visible():
+        raise PopupNotFoundError("Login failed! Invalid email or password.")
+
     # Check for login success popup
     if not page.locator('//ol//div[contains(text(),"Login successful")]').is_visible():
         raise PopupNotFoundError("Login success popup not found!")
