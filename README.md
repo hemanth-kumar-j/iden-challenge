@@ -8,7 +8,7 @@ This project automates the Iden HQ challenge using Playwright (sync) in Python. 
 
 ```
 .
-├── data                  # Stores session and extracted product data
+├── data                  # ⛔️ Ignored: Runtime files (not pushed to Git)
 │   ├── products.json     # Final scraped product data in JSON format
 │   └── session.json      # SessionStorage data for login reuse
 ├── pyproject.toml        # Project configuration and dependencies managed by Rye
@@ -18,7 +18,7 @@ This project automates the Iden HQ challenge using Playwright (sync) in Python. 
 ├── scripts
 │   ├── exceptions.py     # Custom exception class for popup validations
 │   ├── iden_challenge.py # Main script to automate the Iden challenge using sync Playwright
-│   └── __pycache__       # Compiled Python bytecode cache
+│   └── __pycache__       # ⛔️ Ignored: Python bytecode cache
 │       └── exceptions.cpython-312.pyc
 └── src
     └── iden_playwright
