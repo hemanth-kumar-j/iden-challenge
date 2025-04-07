@@ -1,5 +1,0 @@
-{
-    "sessionStorage": {
-        "current_user": "{\"id\":\"b7957b04-baf9-46b0-b053-8d3532663c63\",\"email\":\"janardhan.hemanth@gmail.com\",\"role\":\"candidate\",\"config\":{\"fields\":[\"id\",\"price\",\"name\",\"material\",\"rating\",\"stock\",\"lastUpdated\",\"description\",\"color\"],\"layout\":\"table\",\"pathType\":\"card-flip\",\"fieldNames\":{\"id\":\"ID\",\"sku\":\"SKU\",\"name\":\"Item\",\"color\":\"Color\",\"price\":\"Price\",\"stock\":\"Stock\",\"rating\":\"Rating\",\"weight\":\"Weight (kg)\",\"category\":\"Category\",\"material\":\"Material\",\"warranty\":\"Warranty\",\"dimensions\":\"Dimensions\",\"description\":\"Description\",\"lastUpdated\":\"Last Updated\",\"manufacturer\":\"Manufacturer\"},\"totalItemCount\":3013,\"fieldRenderers\":{}}}"
-    }
-}
