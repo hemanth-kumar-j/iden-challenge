@@ -35,7 +35,7 @@ def load_session(page):
 
 
 def login(page):
-    print("🔑 Logging in...")
+    print("Logging in...")
     page.fill("#email", "janardhan.hemanth@gmail.com")
     page.fill("#password", "ChCfP0Ks")
     page.click("button[type=submit]")
